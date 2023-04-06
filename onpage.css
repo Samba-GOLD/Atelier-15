@@ -1,0 +1,220 @@
+*{
+	margin: O;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans sans-serif;
+}
+nav{
+	background-color: rgb(7, 48, 86);
+	height: 110px;
+	width: 100%;
+    margin-bottom: 100px;
+    position: fixed;
+    
+    
+}
+nav ul{
+	float: right;
+	margin-right: 150px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+nav ul li a{
+	text-decoration: none;
+	color: rgb(244, 235, 235);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+.btnlogin-popup{
+	margin-right: 30px;
+	width: 130px;
+	height: 50px;
+	background: rgb(242, 246, 246);
+	border: 2px, solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: rgb(7, 89, 100);
+	font-weight: 500;
+	margin-left: 60px;
+    margin-top: -240px;
+    transition: .5s;    
+}
+.img{
+    margin-top: -15px;
+    margin-left: 30px;
+}
+.check {
+        width: 100%
+        height: 5px;
+}
+.back {
+    width: 100%;
+    height: 100%;
+    margin-top: -110px;
+
+}
+h1{
+    color: rgb(253, 254, 255);
+   padding: 35px;
+    margin-top: -700px;
+   font-family: "Gill Sans", sans-serif;
+   font-size: 200%;
+   
+  backface-visibility: visible;
+  position: fixed;
+  
+}
+p{
+    margin: 60px;
+     
+      color: rgba(255, 255, 255, 0.897);
+      margin-right: 350px;
+      margin-bottom: 500px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 20%;
+  }
+.second {
+    padding: 5%;
+    color: rgb(56, 56, 57);
+    text-align: center;
+    background-color: rgb(128, 129, 125);
+    height: 300px;
+    margin-top: -10px;
+    
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: "30"px;
+}
+.P1 {
+    color: rgb(252, 252, 255);
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galérie {
+    
+     width: 100%;
+     height: 300px;
+     background-color: rgb(172, 64, 13);
+     margin-top: -40px;
+   
+}
+.text {
+    color: rgb(246, 247, 249);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: solid;
+    margin-right: -50px;
+    
+    
+    margin-bottom: -30px;
+}
+.image {
+    width: 50px;
+    
+    
+    color: aqua;
+ margin-top: 5%;
+display: inline-block;
+position: relative;
+justify-content: space-between;
+	margin-right: 100px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    grid-gap: 200px;
+    
+}
+.image a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    width: 500px;
+}
+.P3 {
+    height: 140px;
+    width: 200px;
+}
+form {
+    max-width: 600px;
+    
+	margin-top: 100px;
+	color: white;
+	position: relative;
+	width: 440px;
+	height: 300px;
+	background: transparent; 
+	border: 2px solid rgb(225, 225, 225, .5);
+	border-radius: 25px;
+	box-shadow: 0 0 30px rgb(80, 77, 77);
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+	justify-content: center;
+	
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 40px;
+    max-width: 30px;
+    margin-right: 90px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: inline-block;
+    width: 50%;
+    height: 5px;
+   margin-left: 30px;
+    border: 1px solid #c04803;
+    border-radius: 3px;
+    position: relative;
+	width: 80%;
+	height: 30px;
+	border-bottom: 2px solid #162938;
+	
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #002145;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left:150px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  input[type="message"] {
+    height: 100px;
+}
